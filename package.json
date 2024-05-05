@@ -1,0 +1,20 @@
+{
+  "name": "@webfunny/monitor",
+  "version": "1.0.1",
+  "description": "企业版, H5探针, npm的安装包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a597873885/npm_monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a597873885/npm_monitor/issues"
+  },
+  "homepage": "https://github.com/a597873885/npm_monitor#readme"
+}
