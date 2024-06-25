@@ -16,9 +16,10 @@ import WfMonitor from "@webfunny/monitor"
 // 初始化上报信息，越早执行越好
 WfMonitor.initMonitor({
   webfunnyDomain: "cloud.webfunny.com", // 上报域名
-  webfunnyMonitorId: "webfunny_20240409_002146_pro", // 项目标识（ID）
+  webfunnyMonitorId: "webfunny_xxxx_xxxx_pro", // 项目标识（ID）
   env: "pro", // 环境变量
-  projectVersion: "1.0.0" // 应用版本号
+  projectVersion: "1.0.0", // 应用版本号,
+  hasTrace: "0" // 0（默认值），不开起trace; 1 开始trace
 })
 ```
 
