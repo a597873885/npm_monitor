@@ -1,6 +1,6 @@
 {
   "name": "@webfunny/monitor",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "企业版, H5探针, npm的安装包",
   "main": "index.js",
   "scripts": {
