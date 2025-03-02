@@ -10,12 +10,12 @@ npm install @webfunny/monitor --save
 
 ### 二、引入探针npm包，配置上报信息
 
-
 ```
 import WfMonitor from "@webfunny/monitor"
 // 初始化上报信息，越早执行越好
 WfMonitor.initMonitor({
-  webfunnyDomain: "cloud.webfunny.com", // 上报域名
+  webfunnyDomain: "http://localhost:9011/", // 上报域名，例如：https://www.xxx.com/
+  webfunnyAssetsDomain: "http://localhost:9010/", // 静态资源域名，例如：https://www.xxx.com/
   webfunnyMonitorId: "webfunny_xxxx_xxxx_pro", // 项目标识（ID）
   env: "pro", // 环境变量
   projectVersion: "1.0.0", // 应用版本号,
